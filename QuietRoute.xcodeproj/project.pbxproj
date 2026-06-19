@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250868998EDB5B9E9363CAC7 /* RouteOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC9B32716F2547CF60C63 /* RouteOptionsView.swift */; };
+		43B8AF3C363B2C58F36E3B1D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCE0188CAE802642D87978 /* HomeView.swift */; };
+		4E34C28B1867C7CC4C8B9B86 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EAE24466840A147FD5F7F /* MainTabView.swift */; };
+		57B21D93CFC43B07D12B3757 /* RouteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C18C04FF39CD722473772 /* RouteCardView.swift */; };
+		624C3BF5B28742D4B291D1F7 /* Placeholders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35841088B8578B6568A21FF1 /* Placeholders.swift */; };
+		6F9FB199211CB3E9CA98DB86 /* RouteOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382230E7A07AD451B92EF9F /* RouteOption.swift */; };
+		775C64E9CEA0A2471FA47130 /* ActiveRouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607F2F6D76C4EC12EFEC45D9 /* ActiveRouteMapView.swift */; };
+		82DB9BCC15132EE184B0BDD8 /* CampusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09183367BA48AF1F61042BA /* CampusData.swift */; };
+		85374C2960826DCAB8169AAC /* QRTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3CA78B2B56C141E2D83D1F /* QRTheme.swift */; };
+		98B1BE542B09B544024AA789 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADAD6CBAFAC2D569D700EE /* ContentView.swift */; };
+		C3C51893A91B87E7DD5FD333 /* QuietRouteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E81C681702BA062650CD57 /* QuietRouteApp.swift */; };
+		F674BCB5BEBCB3107AC78A8F /* RouteOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB7277DA191A7A164517E2 /* RouteOptionsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10ADAD6CBAFAC2D569D700EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18E81C681702BA062650CD57 /* QuietRouteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuietRouteApp.swift; sourceTree = "<group>"; };
+		35841088B8578B6568A21FF1 /* Placeholders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholders.swift; sourceTree = "<group>"; };
+		538FC9B32716F2547CF60C63 /* RouteOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOptionsView.swift; sourceTree = "<group>"; };
+		607F2F6D76C4EC12EFEC45D9 /* ActiveRouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRouteMapView.swift; sourceTree = "<group>"; };
+		9CCADE75CBAACD996612EF4D /* QuietRoute.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = QuietRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BCE0188CAE802642D87978 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB3CA78B2B56C141E2D83D1F /* QRTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRTheme.swift; sourceTree = "<group>"; };
+		BCBE356CC5BE5A44B1B54D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C09183367BA48AF1F61042BA /* CampusData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusData.swift; sourceTree = "<group>"; };
+		D382230E7A07AD451B92EF9F /* RouteOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOption.swift; sourceTree = "<group>"; };
+		DB6C18C04FF39CD722473772 /* RouteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCardView.swift; sourceTree = "<group>"; };
+		EE0EAE24466840A147FD5F7F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		F8FB7277DA191A7A164517E2 /* RouteOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOptionsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B906FD82FD845FD7B357966 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F8FB7277DA191A7A164517E2 /* RouteOptionsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		30591DB547DBB205EB98C13A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CCADE75CBAACD996612EF4D /* QuietRoute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A112EB43F3445114D33C0A66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				607F2F6D76C4EC12EFEC45D9 /* ActiveRouteMapView.swift */,
+				B7BCE0188CAE802642D87978 /* HomeView.swift */,
+				EE0EAE24466840A147FD5F7F /* MainTabView.swift */,
+				35841088B8578B6568A21FF1 /* Placeholders.swift */,
+				DB6C18C04FF39CD722473772 /* RouteCardView.swift */,
+				538FC9B32716F2547CF60C63 /* RouteOptionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5CBF3AFBF5ACF94E369E48B /* QuietRoute */ = {
+			isa = PBXGroup;
+			children = (
+				10ADAD6CBAFAC2D569D700EE /* ContentView.swift */,
+				BCBE356CC5BE5A44B1B54D01 /* Info.plist */,
+				18E81C681702BA062650CD57 /* QuietRouteApp.swift */,
+				F3DE4251648541967AD4807C /* DesignSystem */,
+				E4950E8099B103FA8978FD91 /* Models */,
+				1B906FD82FD845FD7B357966 /* ViewModels */,
+				A112EB43F3445114D33C0A66 /* Views */,
+			);
+			path = QuietRoute;
+			sourceTree = "<group>";
+		};
+		C0AFD535FABF1D18A4F39ACD = {
+			isa = PBXGroup;
+			children = (
+				B5CBF3AFBF5ACF94E369E48B /* QuietRoute */,
+				30591DB547DBB205EB98C13A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4950E8099B103FA8978FD91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C09183367BA48AF1F61042BA /* CampusData.swift */,
+				D382230E7A07AD451B92EF9F /* RouteOption.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3DE4251648541967AD4807C /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				BB3CA78B2B56C141E2D83D1F /* QRTheme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDFC1BC3E2AC392E5EC450FD /* QuietRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B57D7949C41DE8B492012EA /* Build configuration list for PBXNativeTarget "QuietRoute" */;
+			buildPhases = (
+				713F5392A99CEF4F3AB2D6B4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuietRoute;
+			packageProductDependencies = (
+			);
+			productName = QuietRoute;
+			productReference = 9CCADE75CBAACD996612EF4D /* QuietRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94FB997A38ED716094CBF082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FDFC1BC3E2AC392E5EC450FD = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F50F095A0A12D3CE3417B3B2 /* Build configuration list for PBXProject "QuietRoute" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C0AFD535FABF1D18A4F39ACD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 30591DB547DBB205EB98C13A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDFC1BC3E2AC392E5EC450FD /* QuietRoute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713F5392A99CEF4F3AB2D6B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775C64E9CEA0A2471FA47130 /* ActiveRouteMapView.swift in Sources */,
+				82DB9BCC15132EE184B0BDD8 /* CampusData.swift in Sources */,
+				98B1BE542B09B544024AA789 /* ContentView.swift in Sources */,
+				43B8AF3C363B2C58F36E3B1D /* HomeView.swift in Sources */,
+				4E34C28B1867C7CC4C8B9B86 /* MainTabView.swift in Sources */,
+				624C3BF5B28742D4B291D1F7 /* Placeholders.swift in Sources */,
+				85374C2960826DCAB8169AAC /* QRTheme.swift in Sources */,
+				C3C51893A91B87E7DD5FD333 /* QuietRouteApp.swift in Sources */,
+				57B21D93CFC43B07D12B3757 /* RouteCardView.swift in Sources */,
+				6F9FB199211CB3E9CA98DB86 /* RouteOption.swift in Sources */,
+				250868998EDB5B9E9363CAC7 /* RouteOptionsView.swift in Sources */,
+				F674BCB5BEBCB3107AC78A8F /* RouteOptionsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B399A67493A2541DDEB9B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = QuietRoute;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Release;
+		};
+		5D0C6D306AEB72D513B7AA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = QuietRoute;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.1;
+			};
+			name = Debug;
+		};
+		9C6DCA8FBB284B1FC5E55672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuietRoute/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dion.QuietRoute;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F01F3079062B60B8F6AAE1C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuietRoute/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dion.QuietRoute;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B57D7949C41DE8B492012EA /* Build configuration list for PBXNativeTarget "QuietRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6DCA8FBB284B1FC5E55672 /* Debug */,
+				F01F3079062B60B8F6AAE1C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F50F095A0A12D3CE3417B3B2 /* Build configuration list for PBXProject "QuietRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0C6D306AEB72D513B7AA30 /* Debug */,
+				0B399A67493A2541DDEB9B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94FB997A38ED716094CBF082 /* Project object */;
+}

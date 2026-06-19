@@ -1,0 +1,26 @@
+name: QuietRoute
+options:
+  bundleIdPrefix: com.dion
+  deploymentTarget:
+    iOS: "17.0"
+settings:
+  base:
+    PRODUCT_NAME: QuietRoute
+    SWIFT_VERSION: 5.10
+targets:
+  QuietRoute:
+    type: application
+    platform: iOS
+    sources:
+      - path: QuietRoute
+    info:
+      path: QuietRoute/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dion.QuietRoute
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: true
+        CODE_SIGN_STYLE: Automatic
