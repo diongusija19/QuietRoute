@@ -7,26 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08C62AF252BD4DA98C72D7A1 /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F44CB1B3D04E8F9FCF6F9F /* AuthSession.swift */; };
+		1DDA5EFED3C938E25892FEBB /* CalmSpotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802DA9ABF7CD2CEFEDE1F0DA /* CalmSpotsView.swift */; };
 		250868998EDB5B9E9363CAC7 /* RouteOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538FC9B32716F2547CF60C63 /* RouteOptionsView.swift */; };
 		43B8AF3C363B2C58F36E3B1D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCE0188CAE802642D87978 /* HomeView.swift */; };
+		48DF6B6094ECFE2B3C598070 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738011D953531E8E253CFC98 /* SettingsView.swift */; };
 		4E34C28B1867C7CC4C8B9B86 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EAE24466840A147FD5F7F /* MainTabView.swift */; };
 		57B21D93CFC43B07D12B3757 /* RouteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C18C04FF39CD722473772 /* RouteCardView.swift */; };
-		624C3BF5B28742D4B291D1F7 /* Placeholders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35841088B8578B6568A21FF1 /* Placeholders.swift */; };
+		5DD8D2A0C2B9EC4DA06FFDAB /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD5775404DE69D535FE36FD /* FeedbackView.swift */; };
+		62C5515F826C45DEAA0A2673 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99E34F3B4746FA9F3E1F2B /* AuthView.swift */; };
 		6F9FB199211CB3E9CA98DB86 /* RouteOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382230E7A07AD451B92EF9F /* RouteOption.swift */; };
+		73AC7312345A6482C55292C1 /* CalmSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F967DB42EDAE75952912FE76 /* CalmSpot.swift */; };
 		775C64E9CEA0A2471FA47130 /* ActiveRouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607F2F6D76C4EC12EFEC45D9 /* ActiveRouteMapView.swift */; };
 		82DB9BCC15132EE184B0BDD8 /* CampusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09183367BA48AF1F61042BA /* CampusData.swift */; };
 		85374C2960826DCAB8169AAC /* QRTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3CA78B2B56C141E2D83D1F /* QRTheme.swift */; };
+		8A3251488552EB2839C50A73 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1FFF417A2DCAB90D8D4F23 /* UserPreferences.swift */; };
 		98B1BE542B09B544024AA789 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ADAD6CBAFAC2D569D700EE /* ContentView.swift */; };
 		C3C51893A91B87E7DD5FD333 /* QuietRouteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E81C681702BA062650CD57 /* QuietRouteApp.swift */; };
+		DC91FEF03897AAD5FF00B3E7 /* RouteFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599C09F70C522C3ED6222639 /* RouteFeedback.swift */; };
 		F674BCB5BEBCB3107AC78A8F /* RouteOptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FB7277DA191A7A164517E2 /* RouteOptionsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10ADAD6CBAFAC2D569D700EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18E81C681702BA062650CD57 /* QuietRouteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuietRouteApp.swift; sourceTree = "<group>"; };
-		35841088B8578B6568A21FF1 /* Placeholders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Placeholders.swift; sourceTree = "<group>"; };
+		2D99E34F3B4746FA9F3E1F2B /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		538FC9B32716F2547CF60C63 /* RouteOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOptionsView.swift; sourceTree = "<group>"; };
+		55F44CB1B3D04E8F9FCF6F9F /* AuthSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSession.swift; sourceTree = "<group>"; };
+		599C09F70C522C3ED6222639 /* RouteFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFeedback.swift; sourceTree = "<group>"; };
+		5CD5775404DE69D535FE36FD /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
 		607F2F6D76C4EC12EFEC45D9 /* ActiveRouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRouteMapView.swift; sourceTree = "<group>"; };
+		738011D953531E8E253CFC98 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		802DA9ABF7CD2CEFEDE1F0DA /* CalmSpotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmSpotsView.swift; sourceTree = "<group>"; };
 		9CCADE75CBAACD996612EF4D /* QuietRoute.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = QuietRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BCE0188CAE802642D87978 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BB3CA78B2B56C141E2D83D1F /* QRTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRTheme.swift; sourceTree = "<group>"; };
@@ -36,12 +48,15 @@
 		DB6C18C04FF39CD722473772 /* RouteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCardView.swift; sourceTree = "<group>"; };
 		EE0EAE24466840A147FD5F7F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		F8FB7277DA191A7A164517E2 /* RouteOptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOptionsViewModel.swift; sourceTree = "<group>"; };
+		F967DB42EDAE75952912FE76 /* CalmSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmSpot.swift; sourceTree = "<group>"; };
+		FE1FFF417A2DCAB90D8D4F23 /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		1B906FD82FD845FD7B357966 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				55F44CB1B3D04E8F9FCF6F9F /* AuthSession.swift */,
 				F8FB7277DA191A7A164517E2 /* RouteOptionsViewModel.swift */,
 			);
 			path = ViewModels;
@@ -59,11 +74,14 @@
 			isa = PBXGroup;
 			children = (
 				607F2F6D76C4EC12EFEC45D9 /* ActiveRouteMapView.swift */,
+				2D99E34F3B4746FA9F3E1F2B /* AuthView.swift */,
+				802DA9ABF7CD2CEFEDE1F0DA /* CalmSpotsView.swift */,
+				5CD5775404DE69D535FE36FD /* FeedbackView.swift */,
 				B7BCE0188CAE802642D87978 /* HomeView.swift */,
 				EE0EAE24466840A147FD5F7F /* MainTabView.swift */,
-				35841088B8578B6568A21FF1 /* Placeholders.swift */,
 				DB6C18C04FF39CD722473772 /* RouteCardView.swift */,
 				538FC9B32716F2547CF60C63 /* RouteOptionsView.swift */,
+				738011D953531E8E253CFC98 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -93,8 +111,11 @@
 		E4950E8099B103FA8978FD91 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F967DB42EDAE75952912FE76 /* CalmSpot.swift */,
 				C09183367BA48AF1F61042BA /* CampusData.swift */,
+				599C09F70C522C3ED6222639 /* RouteFeedback.swift */,
 				D382230E7A07AD451B92EF9F /* RouteOption.swift */,
+				FE1FFF417A2DCAB90D8D4F23 /* UserPreferences.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,17 +187,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				775C64E9CEA0A2471FA47130 /* ActiveRouteMapView.swift in Sources */,
+				08C62AF252BD4DA98C72D7A1 /* AuthSession.swift in Sources */,
+				62C5515F826C45DEAA0A2673 /* AuthView.swift in Sources */,
+				73AC7312345A6482C55292C1 /* CalmSpot.swift in Sources */,
+				1DDA5EFED3C938E25892FEBB /* CalmSpotsView.swift in Sources */,
 				82DB9BCC15132EE184B0BDD8 /* CampusData.swift in Sources */,
 				98B1BE542B09B544024AA789 /* ContentView.swift in Sources */,
+				5DD8D2A0C2B9EC4DA06FFDAB /* FeedbackView.swift in Sources */,
 				43B8AF3C363B2C58F36E3B1D /* HomeView.swift in Sources */,
 				4E34C28B1867C7CC4C8B9B86 /* MainTabView.swift in Sources */,
-				624C3BF5B28742D4B291D1F7 /* Placeholders.swift in Sources */,
 				85374C2960826DCAB8169AAC /* QRTheme.swift in Sources */,
 				C3C51893A91B87E7DD5FD333 /* QuietRouteApp.swift in Sources */,
 				57B21D93CFC43B07D12B3757 /* RouteCardView.swift in Sources */,
+				DC91FEF03897AAD5FF00B3E7 /* RouteFeedback.swift in Sources */,
 				6F9FB199211CB3E9CA98DB86 /* RouteOption.swift in Sources */,
 				250868998EDB5B9E9363CAC7 /* RouteOptionsView.swift in Sources */,
 				F674BCB5BEBCB3107AC78A8F /* RouteOptionsViewModel.swift in Sources */,
+				48DF6B6094ECFE2B3C598070 /* SettingsView.swift in Sources */,
+				8A3251488552EB2839C50A73 /* UserPreferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

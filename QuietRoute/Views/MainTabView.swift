@@ -18,24 +18,24 @@ struct MainTabView: View {
                 }
 
             NavigationStack {
-                CalmSpotsPlaceholderView()
+                CalmSpotsView()
             }
                 .tabItem {
                     Label("Calm Spots", systemImage: "leaf.fill")
                 }
 
             NavigationStack {
-                FeedbackPlaceholderView()
+                FeedbackView()
             }
                 .tabItem {
                     Label("Feedback", systemImage: "bubble.left.and.bubble.right.fill")
                 }
 
             NavigationStack {
-                ProfilePlaceholderView()
+                SettingsView()
             }
                 .tabItem {
-                    Label("Profile", systemImage: "person.crop.circle.fill")
+                    Label("Settings", systemImage: "slider.horizontal.3")
                 }
         }
         .tint(QRTheme.primary)

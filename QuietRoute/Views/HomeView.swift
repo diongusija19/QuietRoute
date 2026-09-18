@@ -59,7 +59,9 @@ struct HomeView: View {
                             .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
                     }
 
-                    Button(action: {}) {
+                    NavigationLink {
+                        CalmSpotsView()
+                    } label: {
                         Text("Browse Calm Spots")
                             .font(.headline)
                             .frame(maxWidth: .infinity, minHeight: 52)
@@ -78,6 +80,8 @@ struct HomeView: View {
     }
 }
 
-#Preview {
-    HomeView()
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
+    }
 }

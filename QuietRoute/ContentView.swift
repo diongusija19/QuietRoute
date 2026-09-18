@@ -1,11 +1,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var authSession = AuthSession()
+
     var body: some View {
-        MainTabView()
+        Group {
+            if authSession.isAuthenticated {
+                MainTabView()
+            } else {
+                AuthView()
+            }
+        }
+        .environmentObject(authSession)
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

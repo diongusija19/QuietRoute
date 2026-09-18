@@ -69,6 +69,8 @@ struct ActiveRouteMapView: View {
     }
 }
 
-#Preview {
-    ActiveRouteMapView(route: CampusData.routes(for: "Library")[1])
+struct ActiveRouteMapView_Previews: PreviewProvider {
+    static var previews: some View {
+        ActiveRouteMapView(route: CampusData.routes(for: "Library")[1])
+    }
 }

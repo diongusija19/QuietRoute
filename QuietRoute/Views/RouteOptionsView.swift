@@ -2,6 +2,12 @@ import SwiftUI
 
 struct RouteOptionsView: View {
     @StateObject private var viewModel: RouteOptionsViewModel
+    @AppStorage("avoidCrowds") private var avoidCrowds = UserPreferences.defaults.avoidCrowds
+    @AppStorage("avoidNoise") private var avoidNoise = UserPreferences.defaults.avoidNoise
+    @AppStorage("preferFastest") private var preferFastest = UserPreferences.defaults.preferFastest
+    @AppStorage("preferSimpleRoute") private var preferSimpleRoute = UserPreferences.defaults.preferSimpleRoute
+    @AppStorage("comfortPriority") private var comfortPriority = UserPreferences.defaults.comfortPriority
+    @AppStorage("walkingPace") private var walkingPaceRawValue = UserPreferences.defaults.walkingPace.rawValue
 
     init(destination: String = "Library") {
         _viewModel = StateObject(wrappedValue: RouteOptionsViewModel(destination: destination))
@@ -73,9 +79,29 @@ struct RouteOptionsView: View {
             .padding(20)
         }
         .background(QRTheme.background.ignoresSafeArea())
+        .onAppear(perform: syncPreferences)
+        .onChange(of: avoidCrowds) { _, _ in syncPreferences() }
+        .onChange(of: avoidNoise) { _, _ in syncPreferences() }
+        .onChange(of: preferFastest) { _, _ in syncPreferences() }
+        .onChange(of: preferSimpleRoute) { _, _ in syncPreferences() }
+        .onChange(of: comfortPriority) { _, _ in syncPreferences() }
+        .onChange(of: walkingPaceRawValue) { _, _ in syncPreferences() }
+    }
+
+    private func syncPreferences() {
+        viewModel.preferences = UserPreferences(
+            avoidCrowds: avoidCrowds,
+            avoidNoise: avoidNoise,
+            preferFastest: preferFastest,
+            preferSimpleRoute: preferSimpleRoute,
+            comfortPriority: comfortPriority,
+            walkingPace: WalkingPace(rawValue: walkingPaceRawValue) ?? .normal
+        )
     }
 }
 
-#Preview {
-    RouteOptionsView()
+struct RouteOptionsView_Previews: PreviewProvider {
+    static var previews: some View {
+        RouteOptionsView()
+    }
 }

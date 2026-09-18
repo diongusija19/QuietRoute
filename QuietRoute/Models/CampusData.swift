@@ -3,6 +3,7 @@ import CoreLocation
 
 enum CampusData {
     static let quickDestinations = ["Library", "Cafeteria", "Student Center", "Lecture Hall A"]
+    static let allRoutes = libraryRoutes + cafeteriaRoutes + studentCenterRoutes + lectureHallRoutes
 
     static func routes(for destination: String) -> [RouteOption] {
         switch destination {

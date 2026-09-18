@@ -30,4 +30,8 @@ struct RouteOption: Identifiable {
     let crowd: CrowdLevel
     let noise: NoiseLevel
     let path: [CLLocationCoordinate2D]
+
+    var turnCount: Int {
+        max(path.count - 2, 0)
+    }
 }
